@@ -1,0 +1,64 @@
+AddRacialVariant("human", "Calashite", {
+	regExpSearch : /Calashite/i,
+	source : [["P", 31]],
+	skillstxt : "Choose any one skill",
+	scorestxt : "+2 to Constitution, +1 to any ability score",
+	scores : [0, 0, 0, 0, 0, 0],
+  trait : "Human (+1 to one ability score of my choice)\n\nSkills: I gain proficiency in Weaver’s Tools and land vehicles.\n\nBorn Tough: When I am reduced to 0 hitpoints but not killed outright, I can choose to drop to 1 hitpoint instead"});
+AddRacialVariant("human", "Chondothan", {
+	regExpSearch : /Chondothan/i,
+	source : [["P", 31]],
+	skillstxt : "Choose any one skill",
+	scorestxt : "+2 to Dexterity, +1 to any ability score",
+	scores : [0, 2, 0, 0, 0, 0],
+  trait : "Human (+1 to one ability score of my choice)\n\nSkills: I gain proficiency in Navigator’s Tools and Water vehicles.\n\nBravery of a Sailor: You have advantage on saving throws against being frightened."});
+AddRacialVariant("human", "Damaran", {
+	regExpSearch : /Damaran/i,
+	source : [["P", 31]],
+	skillstxt : "Choose any one skill",
+	scorestxt : "+2 to Constitution, +1 to any ability score",
+	scores : [0, 0, 2, 0, 0, 0],
+  trait : "Human (+1 to one ability score of my choice)\n\nResistances: I gain resistance to cold damage.\n\nMountain Savagery: When I score a critical hit, I add an extra damage dice to the hit."});
+AddRacialVariant("human", "Illuskan", {
+	regExpSearch : /Illuskan/i,
+	source : [["P", 31]],
+	skillstxt : "Choose any one skill",
+	scorestxt : "+2 to Intelligence, +1 to any ability score",
+	scores : [0, 0, 0, 2, 0, 0],
+  trait : "Human (+1 to one ability score of my choice)\n\nSkills: I gain proficiency in Perception.\n\nSailor’s Grit: Your Hit Point Maximum increases by 1 for every level you have."});
+AddRacialVariant("human", "Mulan", {
+	regExpSearch : /Mulan/i,
+	source : [["P", 31]],
+	skillstxt : "Choose any one skill",
+	scorestxt : "+2 to Charisma, +1 to any ability score",
+	scores : [0, 0, 0, 0, 0, 2],
+  trait : "Human (+1 to one ability score of my choice)\n\nSkills: I gain proficiency in the Herbalism Kit and Cartographer’s tools.\n\nStrength in Numbers: You gain advantage on an attack roll against a creature if at least one of your allies is within 5 feet of the creature and the ally isn’t incapacitated. Once you use this ability, you can’t use it again until you finish a rest."});
+AddRacialVariant("human", "Rashemi", {
+	regExpSearch : /Rashemi/i,
+	source : [["P", 31]],
+	skillstxt : "Choose any one skill",
+	scorestxt : "+2 to Wisdom, +1 to any ability score",
+	scores : [0, 0, 0, 0, 2, 0],
+  trait : "Human (+1 to one ability score of my choice)\n\nSkills: I gain proficiency in the Herbalism Kit and Cartographer’s tools.\n\nStrength in Numbers: You gain advantage on an attack roll against a creature if at least one of your allies is within 5 feet of the creature and the ally isn’t incapacitated. Once you use this ability, you can’t use it again until you finish a rest."});
+AddRacialVariant("human", "Shou", {
+	regExpSearch : /Shou/i,
+	source : [["P", 31]],
+	skillstxt : "Choose any one skill",
+	scorestxt : "+2 to Intelligence, +1 to any ability score",
+	scores : [0, 0, 0, 2, 0, 0],
+  trait : "Human (+1 to one ability score of my choice)\n\nTinker: Construct a Tiny clockwork device (AC 5, 1 HP) using tinker's tools, 1 hour, and 10 gp of material components, that functions for 24 hours. I can have up to 3 active. -Clockwork Toy: animal, monster, or person that can move 5 ft per turn in a random direction, making appropriate noises; -Fire Starter: 1 action to produce miniature flame to light things; -Music Box: plays single song at a moderate volume."});
+
+AddRacialVariant("human", "Tethyrian", {
+	regExpSearch : /Tethyrian/i,
+	source : [["P", 31]],
+	skillstxt : "Choose any one skill",
+	scorestxt : "+2 to any one ability score, +1 to any ability score",
+	scores : [0, 0, 0, 0, 0, 0],
+  trait : "Human (+2 to one ability score of my choice, +1 to one ability score of my choice)\n\nSkills: I gain proficiency with Cartographers tools.\n\nSpeak with Small Beasts: Through sounds and gestures, you can communicate simple ideas with Small or smaller beasts. Tethyrians love animals and often keep squirrels, badgers, rabbits, moles, woodpeckers, and other creatures as beloved pets."});
+AddRacialVariant("human", "Turami", {
+	regExpSearch : /Turami/i,
+	source : [["P", 31]],
+	skillstxt : "Choose any one skill",
+	scorestxt : "+2 to Strength, +1 to any ability score",
+	scores : [2, 0, 0, 0, 0, 0],
+  trait : "Human (+1 to one ability score of my choice)\n\nSkills: I gain proficiency with the intimidation skill.\n\nTurami Weapon Training: You gain proficiency with four weapons of your choice."});
